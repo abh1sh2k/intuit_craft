@@ -3,6 +3,10 @@
 1) #to run kafka
 cd kafka-docker && docker-compose -f docker-compose-expose.yml up
 
+this whole kafka-docker directory is copied from https://github.com/wurstmeister/kafka-docker.git
+just for this project demo
+
+
 2) # to run mongodb
 docker -f docker-compose-mongo.yml up
 
